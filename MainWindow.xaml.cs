@@ -10,7 +10,6 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfApp1
@@ -24,5 +23,15 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void btnMVC_Click(object sender, RoutedEventArgs e)
+        {
+            var mainView = new WpfApp1.MVC.View.MainView();
+            var controller = new WpfApp1.MVC.Controller.MainController(mainView);
+            mainView.Show();
+
+
+        }
+
     }
 }

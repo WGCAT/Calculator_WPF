@@ -7,17 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnPlus" Content="Button" HorizontalAlignment="Left" Margin="382,65,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnMinus" Content="Button" HorizontalAlignment="Left" Margin="436,65,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnMulti" Content="Button" HorizontalAlignment="Left" Margin="382,90,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnDivision" Content="Button" HorizontalAlignment="Left" Margin="436,90,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnCalculate" Content="Button" HorizontalAlignment="Left" Margin="543,85,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnDelete" Content="Button" HorizontalAlignment="Left" Margin="115,330,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lbNum" Content="Label" HorizontalAlignment="Left" Margin="115,65,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lbResult" Content="Label" HorizontalAlignment="Left" Margin="476,330,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lbCalResult" Content="Label" HorizontalAlignment="Left" Margin="573,330,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="tbNumber" HorizontalAlignment="Left" Margin="134,105,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <ListBox x:Name="lbHistory" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="115,145,93,145"/>
+        <Button x:Name="btnMVC" Content="MVC" HorizontalAlignment="Left" Margin="44,49,0,0" VerticalAlignment="Top" Click="btnMVC_Click"/>
 
     </Grid>
 </Window>
