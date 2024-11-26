@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnPlus" Content="Button" HorizontalAlignment="Left" Margin="382,65,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnMinus" Content="Button" HorizontalAlignment="Left" Margin="436,65,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnMulti" Content="Button" HorizontalAlignment="Left" Margin="382,90,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnDivision" Content="Button" HorizontalAlignment="Left" Margin="436,90,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnCalculate" Content="Button" HorizontalAlignment="Left" Margin="543,85,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnDelete" Content="Button" HorizontalAlignment="Left" Margin="115,330,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbNum" Content="Label" HorizontalAlignment="Left" Margin="115,65,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbResult" Content="Label" HorizontalAlignment="Left" Margin="476,330,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbCalResult" Content="Label" HorizontalAlignment="Left" Margin="573,330,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbNumber" HorizontalAlignment="Left" Margin="134,105,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="lbHistory" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="115,145,93,145"/>
+
+    </Grid>
+</Window>
